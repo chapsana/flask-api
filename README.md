@@ -1,10 +1,14 @@
-# REST API With Flask & SQL Alchemy
+# Products API
 
-> Products API using Python Flask, SQL Alchemy and Marshmallow
+A minimal REST API made using Flask & SQL Alchemy. Products API using Python Flask, SQL Alchemy and Marshmallow
 
-## Quick Start Using Pipenv
+> Undre devlopemnt
 
-``` bash
+## Quick Start
+
+Using Pipenv shell manager
+
+```bash
 # Activate venv
 $ pipenv shell
 
@@ -23,8 +27,12 @@ python app.py
 
 ## Endpoints
 
-* GET     /product
-* GET     /product/:id
-* POST    /product
-* PUT     /product/:id
-* DELETE  /product/:id
+- GET /product
+- GET /product/:id
+- POST /product
+- PUT /product/:id
+- DELETE /product/:id
+
+## Author
+
+Alpha OLomi
