@@ -1,14 +1,12 @@
-<h1 align="center">REST API in Flask</h1>
+# REST API in Flask [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/) [![Software License][ico-license]](LICENSE.md) ![Build Status][ico-travis]
 
-A minimal REST API made using Flask & SQL Alchemy. Products API using Python Flask, SQL Alchemy and Marshmallow
-
-> Under light developemnt
+A minimal REST API made using Flask & SQL Alchemy. Products API using Python Flask, SQL Alchemy and Marshmallow.
 
 ## Quick Start
+
 Using Pipenv shell managerand pip package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-
-### Usage
+### Getting started
 
 ```bash
 # Activate venv
@@ -31,23 +29,40 @@ python app.py
 
 ## Endpoints
 
-- GET /product
-- GET /product/:id
-- POST /product
-- PUT /product/:id
-- DELETE /product/:id
+- GET `/product`
+- GET `/product/:id`
+- POST`/product`
+- PUT `/product/:id`
+- DELETE `/product/:id`
 
+## Changelog
 
+Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
+
+## Testing
+
+```bash
+$ pytest test
+```
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-Please make sure to update tests as appropriate.
+Pull requests are welcome. Please see [CONTRIBUTING](./.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md) for details.
 
+## Security
 
-## Author
+If you discover any security related issues, please email [hello@alphaolomi.com](mailto:hello@alphaolomi.com) instead of using the issue tracker.
 
-Alpha Olomi ☺ [hello@alphaolomi.com](mailto:hello@alphaolomi.com)
+## Credits
+
+- **Alpha Olomi** [hello@alphaolomi.com](hello@alphaolomi.com)
+- [All Contributors][link-contributors]
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/) License
+
+The Apache 2 License. Please see [License File](LICENSE) for more information.
+
+[ico-license]: https://img.shields.io/badge/license-Apache2-brightgreen.svg?style=flat-square
+[ico-travis]: https://img.shields.io/travis/alphaolomi/wazo/master.svg?style=flat-square
+[link-author]: https://github.com/alphaolomi
+[link-contributors]: ../../contributors
