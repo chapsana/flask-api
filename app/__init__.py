@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 
-from flask import Flask, request, jsonify
+from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 import os
@@ -16,6 +16,9 @@ db = SQLAlchemy  (app)
 ma = Marshmallow(app)
 
 
-# Run Server
-if __name__ == '__main__':
-    app.run(debug=True)
+# Setup database
+# @app.before_first_request
+# def initialize_database():
+#     db.create_all()
+
+from app import views, models

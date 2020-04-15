@@ -9,7 +9,8 @@ from flask import request, redirect, send_from_directory
 from werkzeug.exceptions import HTTPException, NotFound, abort
 
 # App modules
-from app.models import Product
+from app        import app, db
+from app.models import Product, product_schema
 
 
 
