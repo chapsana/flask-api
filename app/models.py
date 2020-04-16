@@ -1,6 +1,5 @@
 # -*- encoding: utf-8 -*-
-
-from app import db,ma
+from app import db, ma
 
 
 # Product Class/Model
@@ -17,12 +16,11 @@ class Product(db.Model):
         self.price = price
         self.qty = qty
 
+
 # Product Schema
-
-
 class ProductSchema(ma.Schema):
     class Meta:
-        fields = ('id', 'name', 'description', 'price', 'qty')
+        fields = ("id", "name", "description", "price", "qty")
 
 
 # Init schema
