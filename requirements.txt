@@ -4,6 +4,7 @@ flask_migrate
 flask_wtf
 flask_sqlalchemy
 flask_marshmallow
+marshmallow-sqlalchemy
 flask_bcrypt
 pytest
 gunicorn

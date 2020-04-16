@@ -13,7 +13,7 @@ from flask import json
 def test_fetching_products():        
     response = app.test_client().post(
         '/products',
-        data=json.dumps({"name": "samaki","description": "a good fish","price": "2000","qty": "2"}),
+        data=json.dumps({"name": "samaki1","description": "a good fish","price": "2000","qty": "2"}),
         content_type='application/json',
     )
 
