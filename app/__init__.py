@@ -15,10 +15,9 @@ db = SQLAlchemy  (app)
 
 ma = Marshmallow(app)
 
-
 # Setup database
-# @app.before_first_request
-# def initialize_database():
-#     db.create_all()
+@app.before_first_request
+def initialize_database():
+    db.create_all()
 
 from app import views, models

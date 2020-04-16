@@ -3,5 +3,6 @@ flask
 flask_migrate
 flask_wtf
 flask_sqlalchemy
+flask_marshmallow
 flask_bcrypt
 gunicorn
