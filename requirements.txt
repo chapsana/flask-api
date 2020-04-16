@@ -5,4 +5,5 @@ flask_wtf
 flask_sqlalchemy
 flask_marshmallow
 flask_bcrypt
+pytest
 gunicorn
