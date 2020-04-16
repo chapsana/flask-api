@@ -9,7 +9,7 @@ from werkzeug.exceptions import HTTPException, NotFound, abort
 
 # App modules
 from app import app, db
-from app.models import Product, product_schema
+from app.models import Product, product_schema, products_schema
 
 
 # Create a Product
@@ -32,7 +32,7 @@ def add_product():
 @app.route("/products", methods=["GET"])
 def get_products():
     all_products = Product.query.all()
-    result = product_schema.dump(all_products)
+    result = products_schema.dump(all_products)
     return jsonify(result.data)
 
 
