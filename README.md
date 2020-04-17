@@ -1,16 +1,34 @@
-# Flask App API
-
-<br />
-
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![Software License][ico-license]](LICENSE.md)
-![Build Status][ico-travis]
+<h1 align="center">flask-api 👋</h1>
+<p align="center">
+  <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a href="https://github.com/alphaolomi/flask-api#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="https://github.com/alphaolomi/flask-api/graphs/commit-activity" target="_blank">
+    <img alt="Maintenance" src="https://img.shields.io/badge/Maintained%3F-yes-green.svg" />
+  </a>
+  <a href="https://github.com/alphaolomi/flask-api/blob/master/LICENSE" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/github/license/alphaolomi/flask-api" />
+  </a>
+  <a href="http://commitizen.github.io/cz-cli/" target="_blank">
+    <img alt="Commitizen friendly" src="https://img.shields.io/badge/commitizen-friendly-brightgreen.svg" />
+    </a>
+</p>
 
 <br />
 
 A minimal REST API made using Flask & SQL Alchemy. Products API using Python Flask, SQL Alchemy and Marshmallow.
 
+<p align="center" style="text-decoration:italic;">
+Made with ❤️ using
+<a href="https://www.palletsprojects.com/p/flask/">Flask Framework</a>
+</p>
 <br />
+
+###  Links
+
+🏠 [Homepage](https://github.com/alphaolomi/flask-api#readme)
+
 
 ## Dashboard Features:
 
@@ -31,26 +49,34 @@ A minimal REST API made using Flask & SQL Alchemy. Products API using Python Fla
 # Virtualenv modules installation (Unix based systems)
 virtualenv --no-site-packages env
 source env/bin/activate
-
+```
+```sh
 # Install requirements
 pip3 install -r requirements.txt
+```
 
+```sh
 # Set the FLASK_APP environment variable
 # (Unix/Mac) export FLASK_APP=run.py
 # (Windows) set FLASK_APP=run.py
 # (Powershell) $env:FLASK_APP = ".\run.py"
 export FLASK_APP=run.py
 
+
+```sh
 # Set up the DEBUG environment
 # (Unix/Mac) export FLASK_ENV=development
 # (Windows) set FLASK_ENV=development
 # (Powershell) $env:FLASK_ENV = "development"
 export FLASK_ENV=development
+```
 
+```sh
 # Run the application
 # --host=0.0.0.0 - expose the app on all network interfaces (default 127.0.0.1)
 # --port=5000    - specify the app port (default 5000)
 flask run --host=0.0.0.0 --port=5000
+
 # Access the app in browser: http://127.0.0.1:5000/
 ```
 
@@ -58,11 +84,11 @@ flask run --host=0.0.0.0 --port=5000
 
 ## Endpoints
 
-- GET `/products`
-- GET `/products/:id`
-- POST`/products`
-- PUT `/products/:id`
-- DELETE `/products/:id`
+- **GET** `/products`
+- **GET** `/products/:id`
+- **POST**`/products`
+- **PUT** `/products/:id`
+- **DELETE** `/products/:id`
 
 ## Deployment
 
@@ -140,8 +166,7 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 ## Credits & Links
 
-- **Alpha Olomi** [alphaolomi@gmail.com](alphaolomi@gmail.com)
-- [Flask Framework](https://www.palletsprojects.com/p/flask/)
+- 👤 **Alpha Olomi** - Website: https://alphaolomi.me  Github: [@alphaolomi](https://github.com/alphaolomi)
 - [All Contributors][link-contributors]
 
 ## Testing
@@ -150,19 +175,26 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 pytest test
 ```
 
-## Contributing
+## Contributing <img src="https://img.shields.io/badge/PR-welcome-yellow" />
 
-Pull requests are welcome. Please see [CONTRIBUTING](./.github/CONTRIBUTING.md) and [CODE_OF_CONDUCT](./.github/CODE_OF_CONDUCT.md) for details.
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/alphaolomi/flask-api/issues). You can also take a look at the [contributing guide](https://github.com/alphaolomi/flask-api/blob/master/CONTRIBUTING.md).
 
-## Security
+
+## Security 
 
 If you discover any security related issues, please email [alphaolomi@gmail.com](mailto:alphaolomi@gmail.com) instead of using the issue tracker.
 
-## License
 
-MIT License. Please see [License File](LICENSE) for more information.
+## Show your support
 
-[ico-license]: https://img.shields.io/badge/license-Apache2-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/alphaolomi/wazo/master.svg?style=flat-square
+Give a ⭐️ if this project helped you!
+
+
+## 📝 License
+
+Copyright © 2020 [Alpha Olomi](https://github.com/alphaolomi).<br />
+This project is [MIT](https://github.com/alphaolomi/flask-api/blob/master/LICENSE) licensed.
+
+
 [link-author]: https://github.com/alphaolomi
 [link-contributors]: ../../contributors

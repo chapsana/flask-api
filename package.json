@@ -1,0 +1,19 @@
+{
+  "name": "flask-api",
+  "version": "1.0.0",
+  "description": "A minimal REST API made using Flask & SQL Alchemy. Products API using Python Flask, SQL Alchemy and Marshmallow.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaolomi/flask-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alphaolomi/flask-api/issues"
+  },
+  "homepage": "https://github.com/alphaolomi/flask-api#readme"
+}
