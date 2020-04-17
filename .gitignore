@@ -1,2 +1,12 @@
 db.sqlite
 .idea/
+flask/
+*.pyc
+dev
+node_modules
+app/database.db
+app/build
+yarn.lock
+yarn-error.log
+*.psd
+env/
