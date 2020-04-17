@@ -1,6 +1,7 @@
 <h1 align="center">flask-api 👋</h1>
 <p align="center">
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
+  <a><img src="https://github.com/alphaolomi/flask-api/workflows/Flask%20CI/badge.svg"/></a>
   <a href="https://github.com/alphaolomi/flask-api#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
